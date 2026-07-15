@@ -70,5 +70,10 @@ public class Libro {
             return true;
         }
     }
+
+    @override
+    String toString() {
+        return this.titulo;
+    }
     
 }
